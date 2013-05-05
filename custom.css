@@ -1,0 +1,28 @@
+/CSS/
+article {
+  background: #FFFFCC ;
+  border-style: groove;
+  border-width: 2px;
+  margin: 5px 10px 10px 10px;
+  padding: 15px 15px 20px 20px
+}
+
+article {
+  border-style: groove;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden; 
+}
+
+aside {
+  float: left
+}
+
+#banner {
+  position: relative;
+  bottom: 10px;
+  z-index: -1; 
+}
+
+.post {
+  float: left;
+}

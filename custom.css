@@ -1,4 +1,4 @@
-/CSS/
+/*CSS*/
 article {
   background: #FFFFCC ;
   border-style: groove;
@@ -17,6 +17,8 @@ aside {
   float: left
 }
 
+#main_header {text-align: center;}
+
 #banner {
   position: relative;
   bottom: 10px;
@@ -25,4 +27,37 @@ aside {
 
 .post {
   float: left;
+}
+
+h1 {
+  font-family: Rockwell;
+  font-style: italic;
+  color: orange;
+}
+
+p {
+  font-family: Garamond, sans-serif;
+   text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+}
+
+article img {
+  padding: 0 30px 10px 0;
+}
+.footer {
+  font: 16px Garamond;
+  margin-bottom: 20px;
+}
+
+a{
+  color: orange;
+  font: 16px Garamond;
+  font-weight: bold;
+}
+
+a:hover{
+  color: pink;
 }

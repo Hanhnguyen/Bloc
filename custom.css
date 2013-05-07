@@ -1,14 +1,14 @@
 /*CSS*/
 article {
   background: #FFFFCC ;
-  border-style: groove;
+  border-style: solid;
   border-width: 2px;
   margin: 5px 10px 10px 10px;
   padding: 15px 15px 20px 20px
 }
 
 article {
-  border-style: groove;
+  border-style: solid;
   padding: 10px 10px 10px 10px;
   overflow: hidden; 
 }
@@ -37,11 +37,15 @@ h1 {
 
 p {
   font-family: Garamond, sans-serif;
-   text-align: justify;
+  text-align: justify;
+}
+
+aside{
+  font-family: Garamond, sans-serif;
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 article img {
